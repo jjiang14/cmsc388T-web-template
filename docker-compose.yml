@@ -6,8 +6,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: website
-    container_name: website
+    image: webapp
+    container_name: webapp
     restart: unless-stopped
     networks:
       - app-network
