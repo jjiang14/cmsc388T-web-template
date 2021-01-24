@@ -15,4 +15,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd ../pub/
+            cd ../pub/jjiang14.github.io
+            git pull
